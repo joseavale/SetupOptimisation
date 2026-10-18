@@ -1,0 +1,4 @@
+segment_id,start_m,end_m,track_name,certainty
+5,2565.0,3055.0,donington_gp,0.8208787714960502
+4,4755.0,223.7183,silverstone_gp,0.8202229917268039
+3,2265.0,2885.0,spa,0.7979773511998929

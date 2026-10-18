@@ -1,0 +1,4 @@
+segment_id,start_m,end_m,track_name,certainty
+1,2615.0,3340.0,silverstone_gp,0.7730305636663217
+8,3370.0,4220.372,zandvoort,0.7677183861841208
+4,1860.0,2565.0,donington_gp,0.7606518216750037

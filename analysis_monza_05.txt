@@ -1,0 +1,519 @@
+==================================================
+
+--- Target Section: 1 (0.00m to 1181.46m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    donington_gp
+- Section:           5
+- Overall Certainty: 72.7%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 1100.0 m     | 450.0 m      |      65.8% |
+| exit_straight_length      | 0.70   | 250.0 m      | 300.0 m      |      93.0% |
+| cornering_percentage      | 0.80   | 17.1%        | 42.1%        |      70.0% |
+| mean_corner_radius        | 1.00   | 206.5 m      | 211.4 m      |      98.6% |
+| min_corner_radius         | 1.00   | 18.1 m       | 61.4 m       |      53.9% |
+| std_dev_corner_radius     | 0.80   | 173.0 m      | 122.7 m      |      71.1% |
+| radius_skewness           | 0.80   | 0.2 m        | 0.9 m        |      82.5% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | 6.53         | 1.41         |      94.9% |
+| total_climb_and_descent   | 0.20   | 6.53         | 5.22         |      94.6% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: min_corner_radius (53.9% similar)
+
+[MATCH 2]
+- Training Track:    zandvoort
+- Section:           7
+- Overall Certainty: 72.6%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 1100.0 m     | 450.0 m      |      65.8% |
+| exit_straight_length      | 0.70   | 250.0 m      | 250.0 m      |     100.0% |
+| cornering_percentage      | 0.80   | 17.1%        | 52.6%        |      57.3% |
+| mean_corner_radius        | 1.00   | 206.5 m      | 124.8 m      |      69.3% |
+| min_corner_radius         | 1.00   | 18.1 m       | 23.4 m       |      90.3% |
+| std_dev_corner_radius     | 0.80   | 173.0 m      | 133.9 m      |      78.5% |
+| radius_skewness           | 0.80   | 0.2 m        | 1.5 m        |      65.8% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | 6.53         | -4.58        |      88.9% |
+| total_climb_and_descent   | 0.20   | 6.53         | 5.48         |      95.8% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: cornering_percentage (57.3% similar)
+
+[MATCH 3]
+- Training Track:    silverstone_gp
+- Section:           4
+- Overall Certainty: 70.2%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 1100.0 m     | 800.0 m      |      87.8% |
+| exit_straight_length      | 0.70   | 250.0 m      | 450.0 m      |      77.5% |
+| cornering_percentage      | 0.80   | 17.1%        | 53.5%        |      56.3% |
+| mean_corner_radius        | 1.00   | 206.5 m      | 149.3 m      |      80.2% |
+| min_corner_radius         | 1.00   | 18.1 m       | 25.4 m       |      87.4% |
+| std_dev_corner_radius     | 0.80   | 173.0 m      | 98.6 m       |      52.8% |
+| radius_skewness           | 0.80   | 0.2 m        | 1.6 m        |      63.4% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | 6.53         | -0.85        |      92.6% |
+| total_climb_and_descent   | 0.20   | 6.53         | 14.97        |      78.8% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: std_dev_corner_radius (52.8% similar)
+
+==================================================
+
+--- Target Section: 2 (1181.46m to 1996.47m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    silverstone_gp
+- Section:           1
+- Overall Certainty: 72.6%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 550.0 m      |      69.9% |
+| exit_straight_length      | 0.70   | 250.0 m      | 350.0 m      |      87.1% |
+| cornering_percentage      | 0.80   | 52.1%        | 41.0%        |      86.6% |
+| mean_corner_radius        | 1.00   | 356.6 m      | 235.4 m      |      74.6% |
+| min_corner_radius         | 1.00   | 246.8 m      | 104.2 m      |      66.7% |
+| std_dev_corner_radius     | 0.80   | 63.9 m       | 112.2 m      |      53.0% |
+| radius_skewness           | 0.80   | 0.2 m        | 0.9 m        |      82.4% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | 3.48         | 3.96         |      99.5% |
+| total_climb_and_descent   | 0.20   | 3.92         | 4.29         |      97.9% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: std_dev_corner_radius (53.0% similar)
+
+[MATCH 2]
+- Training Track:    brands_gp
+- Section:           9
+- Overall Certainty: 71.3%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 300.0 m      |      93.0% |
+| exit_straight_length      | 0.70   | 250.0 m      | 400.0 m      |      82.0% |
+| cornering_percentage      | 0.80   | 52.1%        | 67.2%        |      81.9% |
+| mean_corner_radius        | 1.00   | 356.6 m      | 208.8 m      |      67.3% |
+| min_corner_radius         | 1.00   | 246.8 m      | 75.1 m       |      54.1% |
+| std_dev_corner_radius     | 0.80   | 63.9 m       | 100.1 m      |      62.6% |
+| radius_skewness           | 0.80   | 0.2 m        | 0.5 m        |      92.4% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | 3.48         | -8.72        |      87.8% |
+| total_climb_and_descent   | 0.20   | 3.92         | 14.55        |      67.5% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: min_corner_radius (54.1% similar)
+
+[MATCH 3]
+- Training Track:    spa
+- Section:           6
+- Overall Certainty: 68.8%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 350.0 m      |      87.1% |
+| exit_straight_length      | 0.70   | 250.0 m      | 300.0 m      |      93.0% |
+| cornering_percentage      | 0.80   | 52.1%        | 68.2%        |      80.6% |
+| mean_corner_radius        | 1.00   | 356.6 m      | 182.6 m      |      59.1% |
+| min_corner_radius         | 1.00   | 246.8 m      | 100.9 m      |      65.5% |
+| std_dev_corner_radius     | 0.80   | 63.9 m       | 55.0 m       |      87.5% |
+| radius_skewness           | 0.80   | 0.2 m        | 2.0 m        |      52.0% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | 3.48         | -29.26       |      67.3% |
+| total_climb_and_descent   | 0.20   | 3.92         | 29.81        |      48.3% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: total_climb_and_descent (48.3% similar)
+
+==================================================
+
+--- Target Section: 3 (1996.47m to 2341.73m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    zandvoort
+- Section:           7
+- Overall Certainty: 87.4%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 450.0 m      |      77.5% |
+| exit_straight_length      | 0.70   | 300.0 m      | 250.0 m      |      93.0% |
+| cornering_percentage      | 0.80   | 42.4%        | 52.6%        |      87.7% |
+| mean_corner_radius        | 1.00   | 131.9 m      | 124.8 m      |      96.6% |
+| min_corner_radius         | 1.00   | 30.8 m       | 23.4 m       |      89.8% |
+| std_dev_corner_radius     | 0.80   | 110.8 m      | 133.9 m      |      84.1% |
+| radius_skewness           | 0.80   | 1.4 m        | 1.5 m        |      96.6% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.48        | -4.58        |      96.9% |
+| total_climb_and_descent   | 0.20   | 1.51         | 5.48         |      73.3% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: total_climb_and_descent (73.3% similar)
+
+[MATCH 2]
+- Training Track:    silverstone_gp
+- Section:           6
+- Overall Certainty: 82.5%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 150.0 m      |      80.5% |
+| exit_straight_length      | 0.70   | 300.0 m      | 700.0 m      |      67.6% |
+| cornering_percentage      | 0.80   | 42.4%        | 57.9%        |      81.3% |
+| mean_corner_radius        | 1.00   | 131.9 m      | 152.3 m      |      91.2% |
+| min_corner_radius         | 1.00   | 30.8 m       | 21.5 m       |      86.6% |
+| std_dev_corner_radius     | 0.80   | 110.8 m      | 118.6 m      |      94.3% |
+| radius_skewness           | 0.80   | 1.4 m        | 0.9 m        |      87.0% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.48        | -1.53        |     100.0% |
+| total_climb_and_descent   | 0.20   | 1.51         | 6.84         |      67.9% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (67.6% similar)
+
+[MATCH 3]
+- Training Track:    donington_gp
+- Section:           5
+- Overall Certainty: 81.2%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 250.0 m      | 450.0 m      |      77.5% |
+| exit_straight_length      | 0.70   | 300.0 m      | 300.0 m      |     100.0% |
+| cornering_percentage      | 0.80   | 42.4%        | 42.1%        |      99.6% |
+| mean_corner_radius        | 1.00   | 131.9 m      | 211.4 m      |      71.3% |
+| min_corner_radius         | 1.00   | 30.8 m       | 61.4 m       |      73.8% |
+| std_dev_corner_radius     | 0.80   | 110.8 m      | 122.7 m      |      91.4% |
+| radius_skewness           | 0.80   | 1.4 m        | 0.9 m        |      86.7% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.48        | 1.41         |      97.1% |
+| total_climb_and_descent   | 0.20   | 1.51         | 5.22         |      74.5% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: mean_corner_radius (71.3% similar)
+
+==================================================
+
+--- Target Section: 4 (2341.73m to 2657.87m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    brands_gp
+- Section:           5
+- Overall Certainty: 84.7%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 500.0 m      |      80.5% |
+| exit_straight_length      | 0.70   | 300.0 m      | 200.0 m      |      84.5% |
+| cornering_percentage      | 0.80   | 63.7%        | 61.4%        |      97.2% |
+| mean_corner_radius        | 1.00   | 134.6 m      | 163.3 m      |      88.2% |
+| min_corner_radius         | 1.00   | 77.5 m       | 96.3 m       |      91.6% |
+| std_dev_corner_radius     | 0.80   | 79.7 m       | 64.3 m       |      82.1% |
+| radius_skewness           | 0.80   | 2.0 m        | 2.0 m        |      97.9% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.80        | 15.83        |      82.4% |
+| total_climb_and_descent   | 0.20   | 1.97         | 15.83        |      51.0% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: total_climb_and_descent (51.0% similar)
+
+[MATCH 2]
+- Training Track:    zandvoort
+- Section:           4
+- Overall Certainty: 84.3%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 250.0 m      |      93.0% |
+| exit_straight_length      | 0.70   | 300.0 m      | 120.0 m      |      65.1% |
+| cornering_percentage      | 0.80   | 63.7%        | 80.3%        |      80.1% |
+| mean_corner_radius        | 1.00   | 134.6 m      | 163.4 m      |      88.2% |
+| min_corner_radius         | 1.00   | 77.5 m       | 68.7 m       |      95.4% |
+| std_dev_corner_radius     | 0.80   | 79.7 m       | 83.6 m       |      96.0% |
+| radius_skewness           | 0.80   | 2.0 m        | 1.6 m        |      88.0% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.80        | -3.25        |      98.6% |
+| total_climb_and_descent   | 0.20   | 1.97         | 3.65         |      87.3% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (65.1% similar)
+
+[MATCH 3]
+- Training Track:    zandvoort
+- Section:           8
+- Overall Certainty: 82.9%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 250.0 m      |      93.0% |
+| exit_straight_length      | 0.70   | 300.0 m      | 650.0 m      |      70.4% |
+| cornering_percentage      | 0.80   | 63.7%        | 60.8%        |      96.5% |
+| mean_corner_radius        | 1.00   | 134.6 m      | 178.2 m      |      82.9% |
+| min_corner_radius         | 1.00   | 77.5 m       | 54.0 m       |      86.2% |
+| std_dev_corner_radius     | 0.80   | 79.7 m       | 101.3 m      |      79.9% |
+| radius_skewness           | 0.80   | 2.0 m        | 1.4 m        |      82.4% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.80        | 1.68         |      96.5% |
+| total_climb_and_descent   | 0.20   | 1.97         | 5.74         |      76.9% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (70.4% similar)
+
+==================================================
+
+--- Target Section: 5 (2657.87m to 3664.86m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    brands_gp
+- Section:           4
+- Overall Certainty: 87.4%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 250.0 m      |      93.0% |
+| exit_straight_length      | 0.70   | 700.0 m      | 500.0 m      |      87.1% |
+| cornering_percentage      | 0.80   | 13.5%        | 28.8%        |      81.7% |
+| mean_corner_radius        | 1.00   | 168.4 m      | 142.7 m      |      89.9% |
+| min_corner_radius         | 1.00   | 62.3 m       | 46.5 m       |      88.8% |
+| std_dev_corner_radius     | 0.80   | 125.7 m      | 115.1 m      |      92.6% |
+| radius_skewness           | 0.80   | 1.3 m        | 1.6 m        |      91.2% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -5.11        | 6.25         |      88.6% |
+| total_climb_and_descent   | 0.20   | 8.03         | 27.76        |      67.3% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: total_climb_and_descent (67.3% similar)
+
+[MATCH 2]
+- Training Track:    donington_gp
+- Section:           4
+- Overall Certainty: 81.9%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 200.0 m      |      84.5% |
+| exit_straight_length      | 0.70   | 700.0 m      | 450.0 m      |      83.1% |
+| cornering_percentage      | 0.80   | 13.5%        | 39.8%        |      68.4% |
+| mean_corner_radius        | 1.00   | 168.4 m      | 164.9 m      |      98.7% |
+| min_corner_radius         | 1.00   | 62.3 m       | 42.7 m       |      85.5% |
+| std_dev_corner_radius     | 0.80   | 125.7 m      | 90.3 m       |      72.3% |
+| radius_skewness           | 0.80   | 1.3 m        | 1.3 m        |      99.6% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -5.11        | 2.14         |      92.8% |
+| total_climb_and_descent   | 0.20   | 8.03         | 11.84        |      90.1% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: cornering_percentage (68.4% similar)
+
+[MATCH 3]
+- Training Track:    hungaroring
+- Section:           7
+- Overall Certainty: 81.5%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 300.0 m      | 150.0 m      |      73.6% |
+| exit_straight_length      | 0.70   | 700.0 m      | 350.0 m      |      73.5% |
+| cornering_percentage      | 0.80   | 13.5%        | 38.5%        |      70.0% |
+| mean_corner_radius        | 1.00   | 168.4 m      | 156.5 m      |      95.6% |
+| min_corner_radius         | 1.00   | 62.3 m       | 74.0 m       |      93.5% |
+| std_dev_corner_radius     | 0.80   | 125.7 m      | 100.4 m      |      81.2% |
+| radius_skewness           | 0.80   | 1.3 m        | 1.5 m        |      93.1% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -5.11        | -1.00        |      95.9% |
+| total_climb_and_descent   | 0.20   | 8.03         | 4.97         |      88.3% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: cornering_percentage (70.0% similar)
+
+==================================================
+
+--- Target Section: 6 (3664.86m to 4543.04m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    donington_gp
+- Section:           5
+- Overall Certainty: 82.1%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 700.0 m      | 450.0 m      |      83.1% |
+| exit_straight_length      | 0.70   | 750.0 m      | 300.0 m      |      65.0% |
+| cornering_percentage      | 0.80   | 33.9%        | 42.1%        |      90.1% |
+| mean_corner_radius        | 1.00   | 167.9 m      | 211.4 m      |      85.9% |
+| min_corner_radius         | 1.00   | 61.1 m       | 61.4 m       |      99.8% |
+| std_dev_corner_radius     | 0.80   | 94.3 m       | 122.7 m      |      78.0% |
+| radius_skewness           | 0.80   | 1.6 m        | 0.9 m        |      81.9% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.08        | 1.41         |      97.5% |
+| total_climb_and_descent   | 0.20   | 6.21         | 5.22         |      95.9% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (65.0% similar)
+
+[MATCH 2]
+- Training Track:    silverstone_gp
+- Section:           4
+- Overall Certainty: 82.0%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 700.0 m      | 800.0 m      |      94.9% |
+| exit_straight_length      | 0.70   | 750.0 m      | 450.0 m      |      80.5% |
+| cornering_percentage      | 0.80   | 33.9%        | 53.5%        |      76.4% |
+| mean_corner_radius        | 1.00   | 167.9 m      | 149.3 m      |      92.9% |
+| min_corner_radius         | 1.00   | 61.1 m       | 25.4 m       |      66.7% |
+| std_dev_corner_radius     | 0.80   | 94.3 m       | 98.6 m       |      96.3% |
+| radius_skewness           | 0.80   | 1.6 m        | 1.6 m        |      99.0% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.08        | -0.85        |      99.8% |
+| total_climb_and_descent   | 0.20   | 6.21         | 14.97        |      77.6% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: min_corner_radius (66.7% similar)
+
+[MATCH 3]
+- Training Track:    spa
+- Section:           3
+- Overall Certainty: 79.8%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 700.0 m      | 900.0 m      |      90.4% |
+| exit_straight_length      | 0.70   | 750.0 m      | 250.0 m      |      58.0% |
+| cornering_percentage      | 0.80   | 33.9%        | 59.2%        |      69.6% |
+| mean_corner_radius        | 1.00   | 167.9 m      | 131.2 m      |      85.0% |
+| min_corner_radius         | 1.00   | 61.1 m       | 52.8 m       |      94.4% |
+| std_dev_corner_radius     | 0.80   | 94.3 m       | 90.8 m       |      96.8% |
+| radius_skewness           | 0.80   | 1.6 m        | 1.9 m        |      90.1% |
+| direction_changes         | 0.00   | 2.00         | 2.00         |     100.0% |
+| net_elevation_change      | 0.20   | -1.08        | 3.28         |      95.6% |
+| total_climb_and_descent   | 0.20   | 6.21         | 17.67        |      73.1% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (58.0% similar)
+
+==================================================
+
+--- Target Section: 7 (4543.04m to 5753.28m) ---
+Found 3 potential match(es):
+
+[MATCH 1]
+- Training Track:    silverstone_gp
+- Section:           1
+- Overall Certainty: 77.3%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 750.0 m      | 550.0 m      |      88.1% |
+| exit_straight_length      | 0.70   | 1100.0 m     | 350.0 m      |      56.2% |
+| cornering_percentage      | 0.80   | 33.3%        | 41.0%        |      90.7% |
+| mean_corner_radius        | 1.00   | 164.6 m      | 235.4 m      |      78.2% |
+| min_corner_radius         | 1.00   | 77.0 m       | 104.2 m      |      88.4% |
+| std_dev_corner_radius     | 0.80   | 72.7 m       | 112.2 m      |      63.7% |
+| radius_skewness           | 0.80   | 0.9 m        | 0.9 m        |      99.3% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -0.56        | 3.96         |      95.5% |
+| total_climb_and_descent   | 0.20   | 6.28         | 4.29         |      91.0% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: exit_straight_length (56.2% similar)
+
+[MATCH 2]
+- Training Track:    zandvoort
+- Section:           8
+- Overall Certainty: 76.8%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 750.0 m      | 250.0 m      |      58.0% |
+| exit_straight_length      | 0.70   | 1100.0 m     | 650.0 m      |      79.9% |
+| cornering_percentage      | 0.80   | 33.3%        | 60.8%        |      66.9% |
+| mean_corner_radius        | 1.00   | 164.6 m      | 178.2 m      |      95.2% |
+| min_corner_radius         | 1.00   | 77.0 m       | 54.0 m       |      86.4% |
+| std_dev_corner_radius     | 0.80   | 72.7 m       | 101.3 m      |      72.3% |
+| radius_skewness           | 0.80   | 0.9 m        | 1.4 m        |      87.7% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -0.56        | 1.68         |      97.8% |
+| total_climb_and_descent   | 0.20   | 6.28         | 5.74         |      97.8% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: entry_straight_length (58.0% similar)
+
+[MATCH 3]
+- Training Track:    donington_gp
+- Section:           4
+- Overall Certainty: 76.1%
+
++---------------------------+--------+--------------+--------------+------------+
+| Feature Name              | Weight | Target Val   | Train Val    | Similarity |
++---------------------------+--------+--------------+--------------+------------+
+| entry_straight_length     | 0.70   | 750.0 m      | 200.0 m      |      49.5% |
+| exit_straight_length      | 0.70   | 1100.0 m     | 450.0 m      |      65.8% |
+| cornering_percentage      | 0.80   | 33.3%        | 39.8%        |      92.1% |
+| mean_corner_radius        | 1.00   | 164.6 m      | 164.9 m      |      99.9% |
+| min_corner_radius         | 1.00   | 77.0 m       | 42.7 m       |      77.4% |
+| std_dev_corner_radius     | 0.80   | 72.7 m       | 90.3 m       |      81.9% |
+| radius_skewness           | 0.80   | 0.9 m        | 1.3 m        |      90.4% |
+| direction_changes         | 0.00   | 1.00         | 1.00         |     100.0% |
+| net_elevation_change      | 0.20   | -0.56        | 2.14         |      97.3% |
+| total_climb_and_descent   | 0.20   | 6.28         | 11.84        |      84.0% |
++---------------------------+--------+--------------+--------------+------------+
+
+- Most Similar Feature:    direction_changes (100.0% similar)
+- Most Dissimilar Feature: entry_straight_length (49.5% similar)
+
+==================================================

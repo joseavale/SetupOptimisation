@@ -1,0 +1,4 @@
+segment_id,start_m,end_m,track_name,certainty
+5,1910.0,2260.0,brands_gp,0.8470082376419366
+4,1910.0,2205.0,zandvoort,0.843001480296795
+8,3370.0,4220.372,zandvoort,0.8286866318506192
