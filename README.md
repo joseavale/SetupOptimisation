@@ -51,9 +51,7 @@ tracks can support setup prediction at a new one.
 
 - **Training tracks:** Brands Hatch GP, Donington GP, Hungaroring, Silverstone
   GP, Spa, Zandvoort. **Target track:** Monza.
-- **Data:** [12 setups, each with one telemetry lap, across the six tracks:
-  confirm wording]. 14 of the 57 training sections were matched to Monza
-  sections.
+- **Data:** 12 telemetry laps, each with a distinct setup, across the six training tracks (at most 3 laps at any one track). 14 of the 57 training sections were matched to Monza sections.
 
 
 ## Results
@@ -94,9 +92,7 @@ data quality.
 - Track coordinates come from Assetto Corsa track files, extracted with an
   adaptation of the open-source Blender add-on ioImportACCSV by lebluem. Game
   files are not redistributed here. (https://github.com/leBluem/io_import_accsv)
-- To run the pipeline without the real data, set `USE_DUMMY_DATA = True` in the
-  `Tuning` class. This creates virtual setup data and telemetry for each track
-  so that the process 
+- To run the pipeline without the real data, set `USE_DUMMY_DATA = True` in the `Tuning` class. This generates synthetic setup data and telemetry for each track so the full pipeline can run end to end. The dummy values only demonstrate the workflow and do not reproduce the thesis results.
 
 
 ## Tech
